@@ -1,2 +1,13 @@
-# BlockTextFile
-Block-Text-File Specification
+# `缘起`
+在各种项目的开发过程中，不断的使用着各种配置文件，ini、properties、xml、json、yaml等等<br>
+简而言之，各有千秋，却总有挠不到的痒处
+
+作为一种给人读的文本文件，需要简单明了，且不失灵活<br>
+最终，自创发明Block-Text-File格式文件，实际使用后可谓得心应手，大有用途，绝非仅限于配置
+
+鉴于应用效果优良，现整理发布，以飨同行
+
+
+## `块文本文件说明书`
+这是块文本文件（Block-Text-File简称BTF）的格式定义说明书，欢迎转载，但请勿改动以免发生误解
+
