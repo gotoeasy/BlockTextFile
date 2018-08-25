@@ -23,30 +23,34 @@
 <br>
 
 ### `Sample`
+这是个一目了然的例子<br>
+可以发现，里面有properties、json甚至模板等各种形式的内容，灵活性已凸显，就看你怎么驾驭使用了
 ```
 [properties]
 key1=value1
 key2=value2
 key3=value3
 
-[jsondata]
+[sampledata]
 {
 "id": code-1",
 "name": "ABCD",
 "price": 123
 }
 
-[mail-template]
+[template]
 NNNNNNNNN
 NNNNNNNNNNNNNNNNNNNNNNNNN
 NNNNNNNNNNNNN
 NNNNNNNNNNNNNNNNN
----------
+```
 
-[ftpserver]
-ip = 192.168.11.22
-username = N*&*^jvu^%#@$@#%$&*&^^*%^&
-password = @#%$YD%&##@$#$!#*&%^%$%^$%
+
+```
+[conf]
+aaa = xxxxxx
+bbb = xxxxxx
+ccc = xxxxxx
 
 =========这行是9个等号开始的【文档分隔行】，9个等号后的字符被忽视，可写注释用
 从这行开始，到[aaa]块名行之间的内容是被忽视的，可写注释用
@@ -64,20 +68,3 @@ NNNNNNNNNNNNNNNNNNNN
 NNNNNNNNNNNNN
 NNNNNNNNNNNNNNNNNNNN
 =======================
-
-[conf1]
-aaa = xxxxxx
-bbb = xxxxxx
-ccc = xxxxxx
-
-[conf2]
-aaa = xxxxxx
-bbb = xxxxxx
-ccc = xxxxxx
-
-[conf3]
-aaa = xxxxxx
-bbb = xxxxxx
-ccc = xxxxxx
-
-```
