@@ -13,7 +13,9 @@
 <br>
 
 ### `块文本文件说明书 Version 1.0`
-以下是块文本文件（Block-Text-File文件，简称BTF文件）的格式定义说明书，`欢迎转载，但请勿改动以免发生误解`
+以下是块文本文件（Block-Text-File文件，简称BTF文件）的格式定义说明书，`欢迎转载，但请勿改动定义以免混淆误解`
+
+![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)
 
 #### 文件编码
 * 文件编码，固定为UTF-8
