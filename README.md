@@ -34,7 +34,7 @@
 
 ### `Sample`
 下面是个一目了然的例子<br>
-可以发现，里面有properties、json甚至模板等各种形式的内容，灵活性已凸显，就看你怎么驾驭使用了
+其中有properties、json甚至template等各种形式的内容，灵活性凸显，就看你怎么驾驭使用了
 ```
 sample.btf
 [properties]
