@@ -86,5 +86,4 @@ ccc = xxxxxx
 <br>
 
 ### `链接`
-* `gotoeasy-btf` - https://github.com/gotoeasy/gotoeasy-btf
-* `gotoeasy-btf`
+* A JavaScript Block-Text-File Parser `gotoeasy-btf` https://github.com/gotoeasy/gotoeasy-btf
