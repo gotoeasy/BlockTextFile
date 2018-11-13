@@ -5,7 +5,7 @@
 作为一种给人读的文本文件，需要简单明了，且又不失灵活<br>
 最终，自创发明了 `Block-Text-File` 格式文件，实际使用后可谓得心应手，大有用途，绝非仅限于配置
 
-鉴于应用效果优良，现整理发布，以飨同行
+鉴于应用效果优良，现整理发布，以飨同仁
 
 <br>
 青松 2018年8月25日
@@ -86,4 +86,4 @@ ccc = xxxxxx
 <br>
 
 ### `链接`
-* A JavaScript Block-Text-File Parser `gotoeasy-btf` https://github.com/gotoeasy/gotoeasy-btf
+* `@gotoeasy/btf` [![NPM version](https://img.shields.io/npm/v/@gotoeasy/btf.svg)](https://www.npmjs.com/package/@gotoeasy/btf) https://github.com/gotoeasy/npm-packages/blob/master/btf
