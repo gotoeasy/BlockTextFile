@@ -15,8 +15,8 @@
 ### `块文本文件说明书`
 以下是块文本文件（`Block-Text-File`文件，简称BTF文件）的格式定义说明书　`欢迎转载，但请勿改动定义以免混淆误解`
 
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
-![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/gotoeasy/block-text-file) 
+[![License](https://img.shields.io/badge/License-Apache%202-brightgreen.svg)](https://github.com/gotoeasy/block-text-file/blob/master/LICENSE)
 <br>
 <br>
 
@@ -87,3 +87,19 @@ ccc = xxxxxx
 
 ### `链接`
 * `@gotoeasy/btf` [![NPM version](https://img.shields.io/npm/v/@gotoeasy/btf.svg)](https://www.npmjs.com/package/@gotoeasy/btf) https://github.com/gotoeasy/npm-packages/blob/master/btf
+
+<br>
+<br>
+
+<hr>
+
+### `变更列表`
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/gotoeasy/block-text-file/blob/master/version1.1.0.md) <br>
+添加字符串转义功能
+* 块名转义 `[\]]` => 块名为`]`，注：最后一个右中括号不做转义，`[\]` => 块名为`\`，`[\]\]` => 块名为`]\`<br>
+* 块结束行转义 `\----------` => 按块内容处理转换为`---------`<br>
+* 文档分隔行转义 `\=========` => 按块内容处理转换为`=========`<br>
+<br>
+
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://github.com/gotoeasy/block-text-file/blob/master/version1.0.0.md) <br>
+完成基本格式定义
